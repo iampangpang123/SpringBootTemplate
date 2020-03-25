@@ -11,6 +11,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  * @Description:Spring内部的一种配置方式 采用JavaBean的形式来代替传统的xml配置文件形式进行针对框架个性化定制
+ * 在这个类上加上 @EnableWebMvc 注解代表全面接管springmvc会导致springboot扽自动配置失效
+ * 所以不推荐使用
+ * 
  * @author: 唐涛
  * @date: 2019年8月13日 下午5:30:51
  * 
@@ -40,6 +43,7 @@ public class PageController extends WebMvcConfigurerAdapter {
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
 		// TODO Auto-generated method stub
+
 		super.addInterceptors(registry);
 	}
 

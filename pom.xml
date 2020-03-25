@@ -79,8 +79,27 @@
 			<optional>true</optional>
 		</dependency>
 
+<!-- springboot默认是用logback的日志框架的，所以需要排除logback，不然会出现jar依赖冲突的报错。 -->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+		<exclusions><!-- 去掉springboot默认配置 -->
+			<exclusion>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-logging</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
 
+	<dependency> <!-- 引入log4j2依赖 -->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-log4j2</artifactId>
+	</dependency> 
+		
 	</dependencies>
+
+
+	
 
 	<build>
 		<plugins>
