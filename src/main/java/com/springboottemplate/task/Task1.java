@@ -31,6 +31,6 @@ public class Task1 {
 	@Scheduled(fixedRate = 10000)
 	public void printTime() {
 		log.info("日志级别info" + "定时任务，现在时间：" + System.currentTimeMillis());
-		log.error("日志级别debug" + "定时任务，现在时间：" + System.currentTimeMillis());
+		log.error("日志级别error" + "定时任务，现在时间：" + System.currentTimeMillis());
 	}
 }
