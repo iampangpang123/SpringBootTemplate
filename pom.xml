@@ -59,7 +59,7 @@
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 		<!-- 加入redis起步依赖 -->
-		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-redis</artifactId> 
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-redis</artifactId>
 			</dependency> -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
@@ -106,9 +106,15 @@
 			<artifactId>easyexcel</artifactId>
 			<version>1.0.1</version>
 		</dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
 
 
-	</dependencies>
+    </dependencies>
 
 
 

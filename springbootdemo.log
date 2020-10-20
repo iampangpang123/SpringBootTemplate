@@ -2,3 +2,8 @@
 2020-03-25 14:35:31.126 ERROR 12532 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别debug定时任务，现在时间：1585118131125
 2020-03-25 14:35:41.127 ERROR 12532 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别debug定时任务，现在时间：1585118141127
 2020-03-25 14:35:51.126 ERROR 12532 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别debug定时任务，现在时间：1585118151126
+2020-05-19 09:57:27.021  WARN 4128 --- [restartedMain] o.t.t.TemplateMode                       : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2020-05-19 09:57:28.105 ERROR 4128 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别error定时任务，现在时间：1589853448104
+2020-05-19 09:57:38.105 ERROR 4128 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别error定时任务，现在时间：1589853458105
+2020-05-19 09:57:48.105 ERROR 4128 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别error定时任务，现在时间：1589853468105
+2020-05-19 09:57:58.105 ERROR 4128 --- [pool-2-thread-1] c.s.t.Task1                              : 日志级别error定时任务，现在时间：1589853478105
