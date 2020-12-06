@@ -1,4 +1,4 @@
-package cn.tang.web1.page1_100.jicheng;
+package com.springboottemplate.page1_100.jicheng;
 
 public class Person {
 	public static final String ALLOW_SB_NSRZT = "01,02,03,06";

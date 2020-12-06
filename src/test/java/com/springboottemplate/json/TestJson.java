@@ -1,4 +1,4 @@
-package cn.tang.web1.json;
+package com.springboottemplate.json;
 
 import com.alibaba.fastjson.JSONObject;
 import org.junit.Test;

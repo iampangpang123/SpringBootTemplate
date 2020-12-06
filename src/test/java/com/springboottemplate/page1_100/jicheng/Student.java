@@ -1,6 +1,6 @@
-package cn.tang.web1.page1_100.jicheng;
+package com.springboottemplate.page1_100.jicheng;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3. StringUtils;
 import org.junit.Test;
 
 public class Student extends Person {
