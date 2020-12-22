@@ -78,10 +78,10 @@ public class LoggerAop {
 	 *
 	 * @param response
 	 */
-	@AfterReturning(returning = "response", pointcut = "webLog()")
-	public void doAfterReturn(Object response) {
-		// 记录返回值
-		logger.info("======>response:" + response);
-	}
+//	@AfterReturning(returning = "response", pointcut = "webLog()")
+//	public void doAfterReturn(Object response) {
+//		// 记录返回值
+//		logger.info("======>response:" + response);
+//	}
 
 }
