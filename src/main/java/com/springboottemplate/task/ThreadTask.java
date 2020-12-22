@@ -14,7 +14,8 @@ import java.util.concurrent.Executors;
  * @author: ttao
  * @create: 2020-09-27 19:14
  **/
-@Component
+//暂时关闭定时任务
+//@Component
 public class ThreadTask {
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ThreadTask.class);
     /*
